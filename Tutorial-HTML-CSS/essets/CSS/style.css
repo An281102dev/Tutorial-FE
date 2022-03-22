@@ -1,0 +1,129 @@
+/* ------ RESET CSS ------------- */
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.toolbar {
+    background-color: rgb(62, 207, 25);
+}
+   
+.toolbar .toolbar-img {
+    height: 5px;
+}
+
+.toolbar .toolbar-detail .list-icon {
+    display: flex;
+    float: right;
+
+}
+
+.toolbar .toolbar-detail .list-address .items-icon {
+    display: flex;
+    font-weight: 400;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.toolbar .toolbar-detail .list-address .items-icon .icon-links {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(245, 245, 245);
+}
+.toolbar .toolbar-detail .list-icon .items-icon {
+    list-style: none;
+}
+
+.toolbar .toolbar-detail .list-address .address-link {
+    color: rgb(255, 249, 249);
+}
+
+.toolbar .toolbar-detail .list-icon .items-icon .icon-links {
+    color: rgb(238, 235, 235);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.toolbar .toolbar-detail .list-address {
+    display: flex;
+    font-weight: 400;
+    list-style: none;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.toolbar .toolbar-detail .list-address .items-address {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.toolbar .toolbar-detail .list-icon .items-icon .icon-links i {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 70%;
+}
+
+.header {
+    height: 80px;
+    box-shadow: 0 3px 6px rgb(243, 241, 241), 0 3px 6px rgb(252, 250, 250);
+    background-color: rgb(255, 255, 255);
+}
+
+.header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-logo img {
+    height: 80px;
+}
+
+.header .header-items {
+    display: flex;
+    align-items: center;
+}
+
+.header .header-items .items {
+    list-style: none;
+    font-weight: bold;
+}
+
+.header .header-items .items .items-link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+} 
+
+.header .header-items .items .items-link:hover {
+    color: rgb(9, 194, 9); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
